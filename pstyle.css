@@ -1,0 +1,117 @@
+th {
+    font-weight: bolder;
+    font-family: 'Catamaran', sans-serif;
+}
+
+table tr:nth-child(even) {
+    background-color: #d3fac9;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd) {
+    background-color: #ccfdf1;
+    border-collapse: collapse;
+}
+
+table th td {
+    border: 1px double gray;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 2%;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 992px) {
+    #icon {
+        width: 10%;
+        height: auto;
+    }
+    #div {
+        padding: 5%;
+    }
+    footer {
+        padding-top: 5%;
+    }
+    table {
+        font-size: 2vw;
+    }
+    h1 {
+        padding-left: 5%;
+    }
+    #pd {
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p {
+        padding: 2%;
+        font-size: 4vw;
+    }
+    #icon {
+        width: 10%;
+        height: auto
+    }
+    h1 {
+        font-size: 7vw;
+    }
+    footer h3 {
+        font-size: 5vw;
+        text-align: center;
+    }
+    footer {
+        padding-top: 2%;
+        text-align: center;
+    }
+    #div {
+        width: 90%;
+    }
+    table {
+        padding: 0px;
+        width: 100%;
+        font-size: 3vw;
+    }
+    li {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    table {
+        width: 100%;
+        font-size: 2vw !important;
+    }
+    h3 {
+        font-size: 3vw !important;
+    }
+    p {
+        padding: 2%;
+        font-size: 2vw;
+    }
+    #icon {
+        width: 7%;
+        height: auto;
+    }
+    h1 {
+        font-size: 3vw !important;
+        text-align: center;
+    }
+    footer h3 {
+        font-size: 20px;
+    }
+    footer {
+        padding-top: 5%;
+    }
+    #div {
+        width: 90%;
+    }
+    li {
+        font-size: 2vw;
+    }
+}
